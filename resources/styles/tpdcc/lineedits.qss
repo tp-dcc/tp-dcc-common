@@ -1,0 +1,12 @@
+/*
+ --------------------------------------------------------------------------
+ tp-dcc extended style for following module:
+    - tp.common.qt.widgets.lineedits
+ --------------------------------------------------------------------------
+*/
+
+
+EditableLineEditOnClick
+{
+    background-color: transparent;
+}

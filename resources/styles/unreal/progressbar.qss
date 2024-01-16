@@ -1,0 +1,28 @@
+/*
+ --------------------------------------------------------------------------
+ QProgressBar Unreal Style
+ --------------------------------------------------------------------------
+*/
+
+QProgressBar
+{
+    border: 1px transparent black;
+    border-radius: 3px;
+    background: @BLACK_DARK_COLOR;
+    color: transparent;
+    height: 10px;
+}
+
+QProgressBar::chunk
+{
+    border-image: url(@PROGRESS_PATTERN_SVG_ICON) 0 0 0 0 repeat repeat;
+}
+
+/*OLD STYLE*/
+
+/*QProgressBar::chunk*/
+/*{*/
+/*    min-height: 12@UNIT;*/
+/*    max-height: 12@UNIT;*/
+/*    border-radius: 3@UNIT;*/
+/*}*/

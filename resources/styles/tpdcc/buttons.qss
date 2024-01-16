@@ -1,0 +1,18 @@
+/*
+ --------------------------------------------------------------------------
+ tp-dcc extended style for following module:
+    - tp.common.qt.widgets.buttons
+ --------------------------------------------------------------------------
+*/
+
+
+BaseButton
+{
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+
+ExtendedButton:hover
+{
+    background-color: transparent;
+}

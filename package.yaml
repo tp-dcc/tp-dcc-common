@@ -1,0 +1,16 @@
+name: 'tp-dcc-common'
+version: '1.0.0'
+required: True
+author: 'Tomas Poveda'
+authorEmail: 'tpovedatd@gmail.com'
+description: 'Common package for tp-dcc Tools framework'
+displayName: 'tpDcc Common'
+environment:
+  PYTHONPATH:
+    - '{self}'
+  TPDCC_BASE_PATHS:
+    - '{self}'
+  TPDCC_NODEGRAPH_NODE_PATHS:
+    - '{self}/tp/common/nodegraph/nodes'
+commands:
+  - '{self}/startup/common.py'
