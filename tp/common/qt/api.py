@@ -62,7 +62,9 @@ from tp.common.qt.widgets.labels import (
 
 from tp.common.qt.widgets.frameless import FramelessWindow, FramelessWindowThin
 from tp.common.qt.widgets.comboboxes import combobox, BaseComboBox, ComboBoxRegularWidget
-from tp.common.qt.widgets.lineedits import line_edit, text_browser, BaseLineEdit
+from tp.common.qt.widgets.lineedits import (
+    line_edit, text_browser, BaseLineEdit, StringLineEditWidget, FloatLineEditWidget, IntLineEditWidget
+)
 from tp.common.qt.widgets.dividers import divider, Divider, DividerLayout, LabelDivider
 from tp.common.qt.widgets.buttons import (
     styled_button, base_button, regular_button, rounded_button, shadowed_button, tool_button, left_aligned_button,
@@ -81,7 +83,7 @@ from tp.common.qt.widgets.linetabwidget import LineTabWidget
 from tp.common.qt.widgets.stack import sliding_opacity_stacked_widget, StackItem
 from tp.common.qt.widgets.checkboxes import checkbox, checkbox_widget, BaseCheckBoxWidget
 from tp.common.qt.widgets.toolbars import FlowToolBar
-from tp.common.qt.widgets.accordion import AccordionWidget
+from tp.common.qt.widgets.accordion import AccordionWidget, AccordionStyle
 from tp.common.qt.widgets.directories import PathWidget
 from tp.common.qt.widgets.radiobuttongroup import RadioButtonGroup
 
