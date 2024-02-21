@@ -190,9 +190,6 @@ class BaseLineEdit(QLineEdit):
         :param str text: new text.
         """
 
-        if text != self._text_changed_before:
-            self.textChanged.emit(text)
-
         self._text_changed_before = text
 
         if not self.hasFocus():

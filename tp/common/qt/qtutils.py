@@ -1435,12 +1435,12 @@ def iterate_children(widget: QWidget, skip: str | None = None, qobj_class: type 
 
     for child in widget.children():
         yield child
-        if skip is not None and child.property(skip) is not None:
+        if skip is not None and child.property(skip):
             continue
         if qobj_class is not None and not isinstance(child, qobj_class):
             continue
-        for grand_cihld in iterate_children(widget=child, skip=skip):
-            yield grand_cihld
+        for grand_child in iterate_children(widget=child, skip=skip):
+            yield grand_child
 
 
 def is_stackable(widget):
